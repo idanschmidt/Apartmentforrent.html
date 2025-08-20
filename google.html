@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>בדיקת זמינות - דירת אירוח ברמת הגולן</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav {
+      background-color: #333;
+    }
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    nav li {
+      margin: 0;
+    }
+    nav a {
+      display: block;
+      padding: 1rem;
+      color: white;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+    h2 {
+      color: #4CAF50;
+    }
+    iframe {
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      width: 100%;
+      height: 600px;
+      border: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>בדיקת זמינות</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">על הדירה</a></li>
+      <li><a href="index.html#gallery">גלריית תמונות</a></li>
+      <li><a href="calendar.html">בדיקת זמינות</a></li>
+      <li><a href="index.html#contact">צור קשר</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>יומן תפוסה</h2>
+    <p>כאן תוכלו לראות מתי הדירה פנויה:</p>
+    <iframe 
+      src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=Asia%2FJerusalem" 
+      frameborder="0" 
+      scrolling="no">
+    </iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 דירת אירוח ברמת הגולן</p>
+  </footer>
+</body>
+</html>
